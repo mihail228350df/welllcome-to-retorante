@@ -203,6 +203,7 @@ body {
 
 .history {
     margin-top: 166px;
+    padding-bottom: 200px;
 }
 
 .history-title {
@@ -272,4 +273,40 @@ body {
     z-index: 999;
     top: 246px;
     left: 481px;
+}
+
+
+
+
+.black-blok {
+    background-image: url(black-bg.jpg);
+}
+
+.left-title {
+    color: #d67e34;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+
+    margin-bottom: 20px;
+}
+
+.left-text {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.right-btn {
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    
+}
+
+.block-holder {
+    display: flex;
+    justify-content: space-between;
 }
